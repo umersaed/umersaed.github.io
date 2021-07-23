@@ -1,34 +1,3 @@
 .home {
   background-color: var(--primary-color);
-  color: lightgray;
-  display: flex;
-  justify-content: space-between;
-  padding: 150px;
-}
-
-.home__text > div > p {
-  margin-top: 20px;
-}
-
-.home__cover > img {
-  width: 500px;
-  border-radius: 50%;
-  margin-top: -100px;
-}
-
-.sociallinks {
-  margin-top: 50px;
-}
-
-.sociallinks > ul {
-  list-style: none;
-}
-
-.sociallinks > ul > li {
-  display: inline;
-  padding: 5px;
-}
-
-.sociallinks > ul > li > a > img {
-  filter: grayscale(80%);
 }
