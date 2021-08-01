@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: lightgray;
+}
+
+.navbar__logo {
+  cursor: pointer;
+}
+
+.navbar__list > ul {
+  list-style: none;
+}
+
+.navbar__list > ul > li {
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}
